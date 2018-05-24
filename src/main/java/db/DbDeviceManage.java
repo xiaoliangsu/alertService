@@ -127,6 +127,23 @@ public class DbDeviceManage {
         return deviceInfoBeans;
     }
 
+    public List<String> getSitewareTokens(){
+        List<String> tokens=new ArrayList<String>();
+        String sql = "SELECT sitewhereToken FROM deviceInfo";    //要执行的SQL
+        PreparedStatement pstmt;
+        ResultSet rs=null;
+        try {
+            pstmt=conn.prepareStatement(sql);
+            rs = pstmt.executeQuery();//创建数据对象
+            while (rs.next()){
+                tokens.add(rs.getString(1));
+            }
+            rs.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return tokens;
+    }
 
 
     public void close(){

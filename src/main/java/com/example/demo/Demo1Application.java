@@ -9,6 +9,7 @@ import org.springframework.boot.context.embedded.ConfigurableEmbeddedServletCont
 import org.springframework.boot.context.embedded.EmbeddedServletContainerCustomizer;
 import org.springframework.context.annotation.Import;
 import org.springframework.web.bind.annotation.RestController;
+import utils.DataManager;
 
 @RestController
 @SpringBootApplication
@@ -24,6 +25,7 @@ public class Demo1Application implements EmbeddedServletContainerCustomizer{
 
 	public static void main(String[] args) {
 		SpringApplication.run(ALertController.class, args);
+		DataManager.getInstance().startLoading();
 //		SpringApplication.run(AddDeviceController.class, args);
 //
 //		SpringApplication.run(MeasureController.class, args);
