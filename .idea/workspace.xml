@@ -2,50 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17b16a0e-f242-4399-a17c-a73dc8936a75" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/controller/HistoryAlertController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/db/DbAlertManeger.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/model/ALertInfoBean.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/model/AlertListBean.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/utils/DataManager.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot.iml" afterPath="$PROJECT_DIR$/SpringBoot.iml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Demo1Application.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Demo1Application.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ALertController.java" afterPath="$PROJECT_DIR$/src/main/java/controller/ALertController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/db/DbDeviceManage.java" afterPath="$PROJECT_DIR$/src/main/java/db/DbDeviceManage.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/network/NetworkUtils.java" afterPath="$PROJECT_DIR$/src/main/java/network/NetworkUtils.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/Demo1Application.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/Demo1Application.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/GlobalCorsConfig.class" afterPath="$PROJECT_DIR$/target/classes/config/GlobalCorsConfig.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/AddDeviceController$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/AddDeviceController$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/AddDeviceController$3.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/AddDeviceController$4$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/AddDeviceController$4.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/AddDeviceController$5.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/AddDeviceController$6.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/AddDeviceController$7.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/AddDeviceController$8.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/AddDeviceController$9.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/AddDeviceController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/MeasureController$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/MeasureController$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/MeasureController$3.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/MeasureController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/TestController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/UserController$1$1$1$1$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/UserController$1$1$1$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/UserController$1$1$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/UserController$1$1$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/UserController$1$1$3.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/UserController$1$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/UserController$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/UserController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db/DbDeviceManage.class" afterPath="$PROJECT_DIR$/target/classes/db/DbDeviceManage.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/network/NetworkUtils$1.class" afterPath="$PROJECT_DIR$/target/classes/network/NetworkUtils$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/network/NetworkUtils$2.class" afterPath="$PROJECT_DIR$/target/classes/network/NetworkUtils$2.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/network/NetworkUtils.class" afterPath="$PROJECT_DIR$/target/classes/network/NetworkUtils.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/resources/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/HistoryAlertController.java" afterPath="$PROJECT_DIR$/src/main/java/controller/HistoryAlertController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/db/DbAlertManeger.java" afterPath="$PROJECT_DIR$/src/main/java/db/DbAlertManeger.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HistoryAlertController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HistoryAlertController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/HistoryAlertController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="59" column="24" lean-forward="true" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
+            <state relative-caret-position="128">
+              <caret line="68" column="48" lean-forward="false" selection-start-line="68" selection-start-column="48" selection-end-line="68" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -83,17 +41,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DbAlertManeger.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DbAlertManeger.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/db/DbAlertManeger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="58" column="78" lean-forward="true" selection-start-line="58" selection-start-column="78" selection-end-line="58" selection-end-column="78" />
+            <state relative-caret-position="62">
+              <caret line="199" column="52" lean-forward="false" selection-start-line="199" selection-start-column="31" selection-end-line="199" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3212#3227#0" expanded="true" />
-                <marker date="1527149284000" expanded="true" signature="1218:1422" ph="insert into alertInfo... " />
-                <marker date="1527149284000" expanded="true" signature="3253:3418" ph="SELECT * FRO... alertInfo" />
-                <marker date="1527149284000" expanded="true" signature="5399:5514" ph="SELECT event... alertInfo" />
+                <element signature="method#getAlertInfo#0;class#DbAlertManeger#0" expanded="false" />
+                <element signature="e#3229#3244#0" expanded="true" />
+                <element signature="method#getAllAlertorErrorInfo#0;class#DbAlertManeger#0" expanded="false" />
+                <element signature="e#5572#5587#0" expanded="true" />
+                <element signature="method#getAllDeviceAlertorErrorInfo#0;class#DbAlertManeger#0" expanded="false" />
+                <element signature="e#7727#7742#0" expanded="true" />
+                <element signature="e#9801#9816#0" expanded="true" />
+                <element signature="method#getLastTime#0;class#DbAlertManeger#0" expanded="false" />
+                <marker date="1527170049000" expanded="true" signature="1218:1422" ph="insert into alertInfo... " />
+                <marker date="1527170049000" expanded="true" signature="3270:3435" ph="SELECT * FRO... alertInfo" />
+                <marker date="1527170049000" expanded="true" signature="5613:5752" ph="SELECT * FRO... alertInfo" />
+                <marker date="1527170049000" expanded="true" signature="7768:7879" ph="SELECT * FRO... alertInfo" />
+                <marker date="1527170049000" expanded="true" signature="9842:9964" ph="SELECT * FRO... alertInfo" />
+                <marker date="1527170049000" expanded="true" signature="11810:11925" ph="SELECT event... alertInfo" />
               </folding>
             </state>
           </provider>
@@ -102,7 +70,7 @@
       <file leaf-file-name="DataManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/utils/DataManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1166">
+            <state relative-caret-position="100">
               <caret line="88" column="31" lean-forward="false" selection-start-line="88" selection-start-column="31" selection-end-line="88" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -233,8 +201,8 @@
         <option value="$PROJECT_DIR$/src/main/java/model/ALertInfoBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/TimeUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/DataManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/HistoryAlertController.java" />
         <option value="$PROJECT_DIR$/src/main/java/db/DbAlertManeger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/HistoryAlertController.java" />
       </list>
     </option>
   </component>
@@ -245,8 +213,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1661" />
-    <option name="y" value="308" />
+    <option name="x" value="28" />
+    <option name="y" value="41" />
     <option name="width" value="1315" />
     <option name="height" value="812" />
   </component>
@@ -497,15 +465,15 @@
       <updated>1526995722383</updated>
       <workItem from="1526995723589" duration="401000" />
       <workItem from="1526997297543" duration="3954000" />
-      <workItem from="1527058768286" duration="17757000" />
+      <workItem from="1527058768286" duration="22973000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22112000" />
+    <option name="totallyTimeSpent" value="27328000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1661" y="308" width="1315" height="812" extended-state="0" />
+    <frame x="28" y="41" width="1315" height="812" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -524,11 +492,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34030685" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34030685" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20738414" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16889238" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -803,7 +771,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/DataManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1166">
+        <state relative-caret-position="100">
           <caret line="88" column="31" lean-forward="false" selection-start-line="88" selection-start-column="31" selection-end-line="88" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -814,25 +782,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/HistoryAlertController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/db/DbAlertManeger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="59" column="24" lean-forward="true" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
-          <folding />
+        <state relative-caret-position="62">
+          <caret line="199" column="52" lean-forward="false" selection-start-line="199" selection-start-column="31" selection-end-line="199" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getAlertInfo#0;class#DbAlertManeger#0" expanded="false" />
+            <element signature="e#3229#3244#0" expanded="true" />
+            <element signature="method#getAllAlertorErrorInfo#0;class#DbAlertManeger#0" expanded="false" />
+            <element signature="e#5572#5587#0" expanded="true" />
+            <element signature="method#getAllDeviceAlertorErrorInfo#0;class#DbAlertManeger#0" expanded="false" />
+            <element signature="e#7727#7742#0" expanded="true" />
+            <element signature="e#9801#9816#0" expanded="true" />
+            <element signature="method#getLastTime#0;class#DbAlertManeger#0" expanded="false" />
+            <marker date="1527170049000" expanded="true" signature="1218:1422" ph="insert into alertInfo... " />
+            <marker date="1527170049000" expanded="true" signature="3270:3435" ph="SELECT * FRO... alertInfo" />
+            <marker date="1527170049000" expanded="true" signature="5613:5752" ph="SELECT * FRO... alertInfo" />
+            <marker date="1527170049000" expanded="true" signature="7768:7879" ph="SELECT * FRO... alertInfo" />
+            <marker date="1527170049000" expanded="true" signature="9842:9964" ph="SELECT * FRO... alertInfo" />
+            <marker date="1527170049000" expanded="true" signature="11810:11925" ph="SELECT event... alertInfo" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/db/DbAlertManeger.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/HistoryAlertController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="58" column="78" lean-forward="true" selection-start-line="58" selection-start-column="78" selection-end-line="58" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3212#3227#0" expanded="true" />
-            <marker date="1527149284000" expanded="true" signature="1218:1422" ph="insert into alertInfo... " />
-            <marker date="1527149284000" expanded="true" signature="3253:3418" ph="SELECT * FRO... alertInfo" />
-            <marker date="1527149284000" expanded="true" signature="5399:5514" ph="SELECT event... alertInfo" />
-          </folding>
+        <state relative-caret-position="128">
+          <caret line="68" column="48" lean-forward="false" selection-start-line="68" selection-start-column="48" selection-end-line="68" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>

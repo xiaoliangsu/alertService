@@ -66,6 +66,7 @@ public class DbAlertManeger {
         }
 
     }
+    //单个设备必须所有都传
     public List<ALertInfoBean> getAlertInfo(String sitewhereToken,String assignToken,String level,String type,String startDate,String endDate,int pageIndex,int pageSize){
         List<ALertInfoBean> aLertInfoBeans=new ArrayList<ALertInfoBean>();
         String sql = "SELECT * FROM alertInfo WHERE sitewhereToken=? and deviceAssignmentToken=? and level=? and type=? and eventDate>=? and eventDate<=? order by eventDate desc limit ?,?";    //要执行的SQL
@@ -111,6 +112,132 @@ public class DbAlertManeger {
         return aLertInfoBeans;
     }
 
+    //获取每个设备的告警，只区分warning error，可以获得一段时间的waring error
+    public List<ALertInfoBean> getAllAlertorErrorInfo(String sitewhereToken,String assignToken,String level,String startDate,String endDate){
+        List<ALertInfoBean> aLertInfoBeans=new ArrayList<ALertInfoBean>();
+        String sql = "SELECT * FROM alertInfo WHERE sitewhereToken=? and deviceAssignmentToken=? and level=? and eventDate>=? and eventDate<=? order by eventDate";    //要执行的SQL
+        PreparedStatement pstmt;
+        ResultSet rs=null;
+        System.out.println(sql);
+        try {
+            pstmt=conn.prepareStatement(sql);
+            pstmt.setString(1,sitewhereToken);
+            pstmt.setString(2,assignToken);
+            pstmt.setString(3,level);
+            pstmt.setString(4,startDate);
+            pstmt.setString(5,endDate);
+            rs = pstmt.executeQuery();//创建数据对象
+            while (rs.next()){
+                ALertInfoBean aLertInfoBean=new ALertInfoBean();
+                aLertInfoBean.setId(rs.getString(1));
+                aLertInfoBean.setEventType(rs.getString(2));
+                aLertInfoBean.setSitewhereToken(rs.getString(3));
+                aLertInfoBean.setSiteToken(rs.getString(4));
+                aLertInfoBean.setDeviceAssignmentToken(rs.getString(5));
+                aLertInfoBean.setAssignmentType(rs.getString(6));
+                aLertInfoBean.setAssetModuleId(rs.getString(7));
+                aLertInfoBean.setAssetId(rs.getString(8));
+                aLertInfoBean.setEventDate(rs.getString(9));
+                aLertInfoBean.setReceivedDate(rs.getString(10));
+                aLertInfoBean.setSource(rs.getString(11));
+                aLertInfoBean.setLevel(rs.getString(12));
+                aLertInfoBean.setType(rs.getString(13));
+                aLertInfoBean.setMessage(rs.getString(14));
+//                System.out.println(rs.getString(14));
+                aLertInfoBeans.add(aLertInfoBean);
+            }
+            rs.close();
+        } catch (SQLException e) {
+            System.out.println(e.getMessage().toString());
+            e.printStackTrace();
+        }
+        System.out.println(aLertInfoBeans.size());
+        return aLertInfoBeans;
+    }
+    //不区分设备，所有的告警 warning  error
+   public List<ALertInfoBean> getAllDeviceAlertorErrorInfo(String sitewhereToken,String level,String startDate,String endDate){
+        List<ALertInfoBean> aLertInfoBeans=new ArrayList<ALertInfoBean>();
+        String sql = "SELECT * FROM alertInfo WHERE sitewhereToken=? and level=? and eventDate>=? and eventDate<=? order by eventDate";    //要执行的SQL
+        PreparedStatement pstmt;
+        ResultSet rs=null;
+        System.out.println(sql);
+        try {
+            pstmt=conn.prepareStatement(sql);
+            pstmt.setString(1,sitewhereToken);
+            pstmt.setString(2,level);
+            pstmt.setString(3,startDate);
+            pstmt.setString(4,endDate);
+            rs = pstmt.executeQuery();//创建数据对象
+            while (rs.next()){
+                ALertInfoBean aLertInfoBean=new ALertInfoBean();
+                aLertInfoBean.setId(rs.getString(1));
+                aLertInfoBean.setEventType(rs.getString(2));
+                aLertInfoBean.setSitewhereToken(rs.getString(3));
+                aLertInfoBean.setSiteToken(rs.getString(4));
+                aLertInfoBean.setDeviceAssignmentToken(rs.getString(5));
+                aLertInfoBean.setAssignmentType(rs.getString(6));
+                aLertInfoBean.setAssetModuleId(rs.getString(7));
+                aLertInfoBean.setAssetId(rs.getString(8));
+                aLertInfoBean.setEventDate(rs.getString(9));
+                aLertInfoBean.setReceivedDate(rs.getString(10));
+                aLertInfoBean.setSource(rs.getString(11));
+                aLertInfoBean.setLevel(rs.getString(12));
+                aLertInfoBean.setType(rs.getString(13));
+                aLertInfoBean.setMessage(rs.getString(14));
+//                System.out.println(rs.getString(14));
+                aLertInfoBeans.add(aLertInfoBean);
+            }
+            rs.close();
+        } catch (SQLException e) {
+            System.out.println(e.getMessage().toString());
+            e.printStackTrace();
+        }
+        System.out.println(aLertInfoBeans.size());
+        return aLertInfoBeans;
+    }
+
+    //所有设备必须所有都传
+    public List<ALertInfoBean> getAllDeviceAlertInfo(String sitewhereToken,String level,String type,String startDate,String endDate){
+        List<ALertInfoBean> aLertInfoBeans=new ArrayList<ALertInfoBean>();
+        String sql = "SELECT * FROM alertInfo WHERE sitewhereToken=? and level=? and type=? and eventDate>=? and eventDate<=? order by eventDate";    //要执行的SQL
+        PreparedStatement pstmt;
+        ResultSet rs=null;
+        System.out.println(sql);
+        try {
+            pstmt=conn.prepareStatement(sql);
+            pstmt.setString(1,sitewhereToken);
+            pstmt.setString(2,level);
+            pstmt.setString(3,type);
+            pstmt.setString(4,startDate);
+            pstmt.setString(5,endDate);
+            rs = pstmt.executeQuery();//创建数据对象
+            while (rs.next()){
+                ALertInfoBean aLertInfoBean=new ALertInfoBean();
+                aLertInfoBean.setId(rs.getString(1));
+                aLertInfoBean.setEventType(rs.getString(2));
+                aLertInfoBean.setSitewhereToken(rs.getString(3));
+                aLertInfoBean.setSiteToken(rs.getString(4));
+                aLertInfoBean.setDeviceAssignmentToken(rs.getString(5));
+                aLertInfoBean.setAssignmentType(rs.getString(6));
+                aLertInfoBean.setAssetModuleId(rs.getString(7));
+                aLertInfoBean.setAssetId(rs.getString(8));
+                aLertInfoBean.setEventDate(rs.getString(9));
+                aLertInfoBean.setReceivedDate(rs.getString(10));
+                aLertInfoBean.setSource(rs.getString(11));
+                aLertInfoBean.setLevel(rs.getString(12));
+                aLertInfoBean.setType(rs.getString(13));
+                aLertInfoBean.setMessage(rs.getString(14));
+                System.out.println(rs.getString(14));
+                aLertInfoBeans.add(aLertInfoBean);
+            }
+            rs.close();
+        } catch (SQLException e) {
+            System.out.println(e.getMessage().toString());
+            e.printStackTrace();
+        }
+        System.out.println(aLertInfoBeans.size());
+        return aLertInfoBeans;
+    }
 
 
     public String getLastTime(String sitewhereToken,String assignToken){
