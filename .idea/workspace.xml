@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17b16a0e-f242-4399-a17c-a73dc8936a75" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/model/WarnNum/Results.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/model/WarnNum/WarnNums.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/model/warnOrError/Results.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/model/warnOrError/WarnErrorNums.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/HistoryAlertController.java" afterPath="$PROJECT_DIR$/src/main/java/controller/HistoryAlertController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/db/DbAlertManeger.java" afterPath="$PROJECT_DIR$/src/main/java/db/DbAlertManeger.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/HistoryAlertController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db/DbAlertManeger.class" afterPath="$PROJECT_DIR$/target/classes/db/DbAlertManeger.class" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,47 +14,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HistoryAlertController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HistoryAlertController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/HistoryAlertController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1262">
-              <caret line="142" column="46" lean-forward="false" selection-start-line="142" selection-start-column="46" selection-end-line="142" selection-end-column="46" />
+            <state relative-caret-position="713">
+              <caret line="76" column="8" lean-forward="false" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="8" />
               <folding>
                 <element signature="method#getStartEndError#0;class#HistoryAlertController#0" expanded="false" />
-                <element signature="e#5510#5519#0" expanded="true" />
-                <element signature="e#5571#5580#0" expanded="true" />
-                <element signature="e#5631#5640#0" expanded="true" />
-                <element signature="e#5691#5700#0" expanded="true" />
-                <element signature="e#5752#5761#0" expanded="true" />
-                <element signature="e#5810#5819#0" expanded="true" />
                 <element signature="method#getErrorInfo#0;class#HistoryAlertController#0" expanded="false" />
-                <element signature="e#8567#8576#0" expanded="true" />
-                <element signature="e#8628#8637#0" expanded="true" />
-                <element signature="e#8688#8697#0" expanded="true" />
-                <element signature="e#8748#8757#0" expanded="true" />
-                <element signature="e#8809#8818#0" expanded="true" />
-                <element signature="e#8866#8875#0" expanded="true" />
                 <element signature="method#getAllErrorOrWarn#0;class#HistoryAlertController#0" expanded="false" />
-                <element signature="e#11363#11372#0" expanded="true" />
-                <element signature="e#11422#11431#0" expanded="true" />
-                <element signature="e#11479#11488#0" expanded="true" />
                 <element signature="method#getAllDeviceAlertInfo#0;class#HistoryAlertController#0" expanded="false" />
-                <element signature="e#13200#13209#0" expanded="true" />
-                <element signature="e#13261#13270#0" expanded="true" />
-                <element signature="e#13321#13330#0" expanded="true" />
-                <element signature="e#13381#13390#0" expanded="true" />
-                <element signature="e#13442#13451#0" expanded="true" />
-                <element signature="e#13499#13508#0" expanded="true" />
                 <element signature="method#getAllDeviceErrorInfo#0;class#HistoryAlertController#0" expanded="false" />
-                <element signature="e#16268#16277#0" expanded="true" />
-                <element signature="e#16329#16338#0" expanded="true" />
-                <element signature="e#16389#16398#0" expanded="true" />
-                <element signature="e#16449#16458#0" expanded="true" />
-                <element signature="e#16510#16519#0" expanded="true" />
-                <element signature="e#16567#16576#0" expanded="true" />
-                <element signature="e#19286#19295#0" expanded="true" />
-                <element signature="e#19345#19354#0" expanded="true" />
-                <element signature="e#19402#19411#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,26 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WarnNums.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/WarnNum/WarnNums.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <element signature="e#145#146#0" expanded="true" />
-                <element signature="e#183#184#0" expanded="true" />
-                <element signature="e#217#218#0" expanded="true" />
-                <element signature="e#247#248#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DbAlertManeger.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/db/DbAlertManeger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1932">
-              <caret line="156" column="47" lean-forward="false" selection-start-line="156" selection-start-column="47" selection-end-line="156" selection-end-column="47" />
+            <state relative-caret-position="322">
+              <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#insert#0;class#DbAlertManeger#0" expanded="false" />
@@ -140,11 +87,77 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Demo1Application.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/Demo1Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utils/DataManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="897">
+              <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NetworkUtils.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/network/NetworkUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="64" column="117" lean-forward="false" selection-start-line="64" selection-start-column="117" selection-end-line="64" selection-end-column="117" />
+              <folding>
+                <element signature="method#doGet#0;class#NetworkUtils#0" expanded="false" />
+                <element signature="method#doGetAsync#0;class#NetworkUtils#0" expanded="false" />
+                <element signature="method#doPost#0;class#NetworkUtils#0" expanded="false" />
+                <element signature="method#doPostAsync#0;class#NetworkUtils#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DbDeviceManage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/db/DbDeviceManage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2599">
+              <caret line="117" column="14" lean-forward="false" selection-start-line="117" selection-start-column="14" selection-end-line="117" selection-end-column="14" />
+              <folding>
+                <marker date="1527083700000" expanded="true" signature="1177:1407" ph="create table... IF" />
+                <marker date="1527083700000" expanded="true" signature="1751:1841" ph="insert into deviceInfo... " />
+                <marker date="1527083700000" expanded="true" signature="2468:2563" ph="UPDATE deviceInfo... " />
+                <marker date="1527083700000" expanded="true" signature="3108:3143" ph="DELETE FROM deviceInfo... " />
+                <marker date="1527083700000" expanded="true" signature="3580:3617" ph="SELECT * FRO... deviceInfo" />
+                <marker date="1527083700000" expanded="true" signature="4583:4620" ph="SELECT sitew... deviceInfo" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ALertController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/ALertController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="621">
+              <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+              <folding>
+                <element signature="method#getDatafromFile#0;class#ALertController#0" expanded="false" />
+                <element signature="method#getCityJson#0;class#ALertController#0" expanded="false" />
+                <element signature="method#getStartAlert#0;class#ALertController#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Results.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/model/WarnNum/Results.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="391">
+              <caret line="17" column="5" lean-forward="false" selection-start-line="11" selection-start-column="3" selection-end-line="17" selection-end-column="5" />
               <folding>
                 <element signature="e#361#362#0" expanded="true" />
                 <element signature="e#397#398#0" expanded="true" />
@@ -175,16 +188,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Metadata.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/Metadata.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -205,6 +208,9 @@
       <find>getAllDeviceAlertInfo</find>
       <find>getAllDeviceErrorInfo</find>
       <find>getAllDeviceAlertorErrorInfo</find>
+      <find>manager</find>
+      <find>DbDeviceManeger</find>
+      <find>sitewareTokens</find>
     </findStrings>
     <replaceStrings>
       <replace>results</replace>
@@ -251,7 +257,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="15" />
+    <option name="x" value="125" />
     <option name="y" value="23" />
     <option name="width" value="1315" />
     <option name="height" value="812" />
@@ -272,8 +278,9 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -381,7 +388,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -525,16 +531,23 @@
       <workItem from="1527218407982" duration="3511000" />
       <workItem from="1527229230206" duration="8378000" />
       <workItem from="1527484835375" duration="300000" />
-      <workItem from="1527485482830" duration="2218000" />
+      <workItem from="1527485482830" duration="2625000" />
+      <workItem from="1527497966279" duration="83000" />
+      <workItem from="1527670076552" duration="1350000" />
+      <workItem from="1527737290243" duration="858000" />
+      <workItem from="1528174099911" duration="289000" />
+      <workItem from="1528271122990" duration="219000" />
+      <workItem from="1528278554029" duration="20000" />
+      <workItem from="1528280488839" duration="264000" />
+      <workItem from="1528281617326" duration="323000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41735000" />
+    <option name="totallyTimeSpent" value="45548000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="15" y="23" width="1315" height="812" extended-state="0" />
-    <editor active="true" />
+    <frame x="125" y="23" width="1315" height="812" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -552,11 +565,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34030685" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34030685" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2631579" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17360565" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -586,9 +599,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1679">
           <caret line="88" column="31" lean-forward="false" selection-start-line="88" selection-start-column="31" selection-end-line="88" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -623,16 +634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding>
-            <element signature="e#168#169#0" expanded="false" />
-            <element signature="e#201#202#0" expanded="false" />
-            <element signature="e#250#251#0" expanded="false" />
-            <element signature="e#294#295#0" expanded="false" />
-            <element signature="e#351#352#0" expanded="false" />
-            <element signature="e#381#382#0" expanded="false" />
-            <element signature="e#450#451#0" expanded="false" />
-            <element signature="e#488#489#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -655,7 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -664,8 +664,10 @@
         <state relative-caret-position="483">
           <caret line="52" column="80" lean-forward="false" selection-start-line="52" selection-start-column="61" selection-end-line="52" selection-end-column="80" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#doGet#0;class#NetworkUtils#0" expanded="false" />
+            <element signature="method#doGetAsync#0;class#NetworkUtils#0" expanded="false" />
+            <element signature="method#doPost#0;class#NetworkUtils#0" expanded="false" />
+            <element signature="method#doPostAsync#0;class#NetworkUtils#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -684,40 +686,10 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#getStartEndError#0;class#HistoryAlertController#0" expanded="false" />
-            <element signature="e#5510#5519#0" expanded="true" />
-            <element signature="e#5571#5580#0" expanded="true" />
-            <element signature="e#5631#5640#0" expanded="true" />
-            <element signature="e#5691#5700#0" expanded="true" />
-            <element signature="e#5752#5761#0" expanded="true" />
-            <element signature="e#5810#5819#0" expanded="true" />
             <element signature="method#getErrorInfo#0;class#HistoryAlertController#0" expanded="false" />
-            <element signature="e#8567#8576#0" expanded="true" />
-            <element signature="e#8628#8637#0" expanded="true" />
-            <element signature="e#8688#8697#0" expanded="true" />
-            <element signature="e#8748#8757#0" expanded="true" />
-            <element signature="e#8809#8818#0" expanded="true" />
-            <element signature="e#8866#8875#0" expanded="true" />
             <element signature="method#getAllErrorOrWarn#0;class#HistoryAlertController#0" expanded="false" />
-            <element signature="e#11363#11372#0" expanded="true" />
-            <element signature="e#11422#11431#0" expanded="true" />
-            <element signature="e#11479#11488#0" expanded="true" />
             <element signature="method#getAllDeviceAlertInfo#0;class#HistoryAlertController#0" expanded="false" />
-            <element signature="e#13200#13209#0" expanded="true" />
-            <element signature="e#13261#13270#0" expanded="true" />
-            <element signature="e#13321#13330#0" expanded="true" />
-            <element signature="e#13381#13390#0" expanded="true" />
-            <element signature="e#13442#13451#0" expanded="true" />
-            <element signature="e#13499#13508#0" expanded="true" />
             <element signature="method#getAllDeviceErrorInfo#0;class#HistoryAlertController#0" expanded="false" />
-            <element signature="e#16268#16277#0" expanded="true" />
-            <element signature="e#16329#16338#0" expanded="true" />
-            <element signature="e#16389#16398#0" expanded="true" />
-            <element signature="e#16449#16458#0" expanded="true" />
-            <element signature="e#16510#16519#0" expanded="true" />
-            <element signature="e#16567#16576#0" expanded="true" />
-            <element signature="e#19286#19295#0" expanded="true" />
-            <element signature="e#19345#19354#0" expanded="true" />
-            <element signature="e#19402#19411#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -726,13 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <marker date="1526996859000" expanded="true" signature="1149:1331" ph="create table... IF" />
-            <marker date="1526996859000" expanded="true" signature="1641:1698" ph="insert into stu... " />
-            <marker date="1526996859000" expanded="true" signature="2232:2291" ph="UPDATE stu... " />
-            <marker date="1526996859000" expanded="true" signature="2777:2805" ph="DELETE FROM stu... " />
-            <marker date="1526996859000" expanded="true" signature="3232:3262" ph="SELECT * FRO... stu" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -767,16 +732,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding>
-            <element signature="e#168#169#0" expanded="false" />
-            <element signature="e#201#202#0" expanded="false" />
-            <element signature="e#250#251#0" expanded="false" />
-            <element signature="e#294#295#0" expanded="false" />
-            <element signature="e#351#352#0" expanded="false" />
-            <element signature="e#381#382#0" expanded="false" />
-            <element signature="e#450#451#0" expanded="false" />
-            <element signature="e#488#489#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -799,7 +754,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -808,8 +762,10 @@
         <state relative-caret-position="483">
           <caret line="52" column="80" lean-forward="false" selection-start-line="52" selection-start-column="61" selection-end-line="52" selection-end-column="80" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#doGet#0;class#NetworkUtils#0" expanded="false" />
+            <element signature="method#doGetAsync#0;class#NetworkUtils#0" expanded="false" />
+            <element signature="method#doPost#0;class#NetworkUtils#0" expanded="false" />
+            <element signature="method#doPostAsync#0;class#NetworkUtils#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -826,7 +782,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -835,8 +790,10 @@
         <state relative-caret-position="184">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#doGet#0;class#NetworkUtils#0" expanded="false" />
+            <element signature="method#doGetAsync#0;class#NetworkUtils#0" expanded="false" />
+            <element signature="method#doPost#0;class#NetworkUtils#0" expanded="false" />
+            <element signature="method#doPostAsync#0;class#NetworkUtils#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -854,7 +811,6 @@
         <state relative-caret-position="1610">
           <caret line="112" column="24" lean-forward="false" selection-start-line="112" selection-start-column="8" selection-end-line="112" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="false" />
             <element signature="method#getDatafromFile#0;class#ALertController#0" expanded="false" />
             <element signature="method#getCityJson#0;class#ALertController#0" expanded="false" />
             <element signature="method#getStartAlert#0;class#ALertController#0" expanded="false" />
@@ -866,7 +822,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -883,7 +838,6 @@
         <state relative-caret-position="322">
           <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
             <element signature="method#getDatafromFile#0;class#ALertController#0" expanded="false" />
             <element signature="method#getCityJson#0;class#ALertController#0" expanded="false" />
             <element signature="method#getStartAlert#0;class#ALertController#0" expanded="false" />
@@ -897,7 +851,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -905,38 +858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/ALertController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="55" column="43" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="55" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#getDatafromFile#0;class#ALertController#0" expanded="false" />
-            <element signature="method#getCityJson#0;class#ALertController#0" expanded="false" />
-            <element signature="method#getStartAlert#0;class#ALertController#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/network/NetworkUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="52" column="80" lean-forward="false" selection-start-line="52" selection-start-column="61" selection-end-line="52" selection-end-column="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#doGet#0;class#NetworkUtils#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/Demo1Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -951,7 +872,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -959,31 +879,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding>
-            <element signature="e#168#169#0" expanded="false" />
-            <element signature="e#201#202#0" expanded="false" />
-            <element signature="e#250#251#0" expanded="false" />
-            <element signature="e#294#295#0" expanded="false" />
-            <element signature="e#351#352#0" expanded="false" />
-            <element signature="e#381#382#0" expanded="false" />
-            <element signature="e#450#451#0" expanded="false" />
-            <element signature="e#488#489#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/db/DbDeviceManage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2921">
-          <caret line="131" column="43" lean-forward="false" selection-start-line="131" selection-start-column="43" selection-end-line="131" selection-end-column="43" />
-          <folding>
-            <marker date="1527083700000" expanded="true" signature="1177:1407" ph="create table... IF" />
-            <marker date="1527083700000" expanded="true" signature="1751:1841" ph="insert into deviceInfo... " />
-            <marker date="1527083700000" expanded="true" signature="2468:2563" ph="UPDATE deviceInfo... " />
-            <marker date="1527083700000" expanded="true" signature="3108:3143" ph="DELETE FROM deviceInfo... " />
-            <marker date="1527083700000" expanded="true" signature="3580:3617" ph="SELECT * FRO... deviceInfo" />
-            <marker date="1527083700000" expanded="true" signature="4583:4620" ph="SELECT sitew... deviceInfo" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1001,23 +896,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <marker date="1526996859000" expanded="true" signature="1149:1331" ph="create table... IF" />
-            <marker date="1526996859000" expanded="true" signature="1641:1698" ph="insert into stu... " />
-            <marker date="1526996859000" expanded="true" signature="2232:2291" ph="UPDATE stu... " />
-            <marker date="1526996859000" expanded="true" signature="2777:2805" ph="DELETE FROM stu... " />
-            <marker date="1526996859000" expanded="true" signature="3232:3262" ph="SELECT * FRO... stu" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/DataManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1679">
-          <caret line="88" column="31" lean-forward="false" selection-start-line="88" selection-start-column="31" selection-end-line="88" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1041,40 +919,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/db/DbAlertManeger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1932">
-          <caret line="156" column="47" lean-forward="false" selection-start-line="156" selection-start-column="47" selection-end-line="156" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#insert#0;class#DbAlertManeger#0" expanded="false" />
-            <element signature="method#getAlertInfo#0;class#DbAlertManeger#0" expanded="false" />
-            <element signature="method#getAlertInfoExcPage#0;class#DbAlertManeger#0" expanded="false" />
-            <element signature="method#getLastTime#0;class#DbAlertManeger#0" expanded="false" />
-            <marker date="1527239345000" expanded="true" signature="5597:5736" ph="SELECT * FRO... alertInfo" />
-            <marker date="1527239345000" expanded="true" signature="7659:7770" ph="SELECT * FRO... alertInfo" />
-            <marker date="1527239345000" expanded="true" signature="9728:9850" ph="SELECT * FRO... alertInfo" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/WarnNum/WarnNums.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="184">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#183#184#0" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#145#146#0" expanded="false" />
+            <element signature="e#183#184#0" expanded="false" />
+            <element signature="e#217#218#0" expanded="false" />
+            <element signature="e#247#248#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/WarnNum/Results.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="391">
+          <caret line="17" column="5" lean-forward="false" selection-start-line="11" selection-start-column="3" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="e#361#362#0" expanded="true" />
             <element signature="e#397#398#0" expanded="true" />
@@ -1138,46 +999,89 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/db/DbDeviceManage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2599">
+          <caret line="117" column="14" lean-forward="false" selection-start-line="117" selection-start-column="14" selection-end-line="117" selection-end-column="14" />
+          <folding>
+            <marker date="1527083700000" expanded="true" signature="1177:1407" ph="create table... IF" />
+            <marker date="1527083700000" expanded="true" signature="1751:1841" ph="insert into deviceInfo... " />
+            <marker date="1527083700000" expanded="true" signature="2468:2563" ph="UPDATE deviceInfo... " />
+            <marker date="1527083700000" expanded="true" signature="3108:3143" ph="DELETE FROM deviceInfo... " />
+            <marker date="1527083700000" expanded="true" signature="3580:3617" ph="SELECT * FRO... deviceInfo" />
+            <marker date="1527083700000" expanded="true" signature="4583:4620" ph="SELECT sitew... deviceInfo" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/ALertController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+          <folding>
+            <element signature="method#getDatafromFile#0;class#ALertController#0" expanded="false" />
+            <element signature="method#getCityJson#0;class#ALertController#0" expanded="false" />
+            <element signature="method#getStartAlert#0;class#ALertController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/HistoryAlertController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1262">
-          <caret line="142" column="46" lean-forward="false" selection-start-line="142" selection-start-column="46" selection-end-line="142" selection-end-column="46" />
+        <state relative-caret-position="713">
+          <caret line="76" column="8" lean-forward="false" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="8" />
           <folding>
             <element signature="method#getStartEndError#0;class#HistoryAlertController#0" expanded="false" />
-            <element signature="e#5510#5519#0" expanded="true" />
-            <element signature="e#5571#5580#0" expanded="true" />
-            <element signature="e#5631#5640#0" expanded="true" />
-            <element signature="e#5691#5700#0" expanded="true" />
-            <element signature="e#5752#5761#0" expanded="true" />
-            <element signature="e#5810#5819#0" expanded="true" />
             <element signature="method#getErrorInfo#0;class#HistoryAlertController#0" expanded="false" />
-            <element signature="e#8567#8576#0" expanded="true" />
-            <element signature="e#8628#8637#0" expanded="true" />
-            <element signature="e#8688#8697#0" expanded="true" />
-            <element signature="e#8748#8757#0" expanded="true" />
-            <element signature="e#8809#8818#0" expanded="true" />
-            <element signature="e#8866#8875#0" expanded="true" />
             <element signature="method#getAllErrorOrWarn#0;class#HistoryAlertController#0" expanded="false" />
-            <element signature="e#11363#11372#0" expanded="true" />
-            <element signature="e#11422#11431#0" expanded="true" />
-            <element signature="e#11479#11488#0" expanded="true" />
             <element signature="method#getAllDeviceAlertInfo#0;class#HistoryAlertController#0" expanded="false" />
-            <element signature="e#13200#13209#0" expanded="true" />
-            <element signature="e#13261#13270#0" expanded="true" />
-            <element signature="e#13321#13330#0" expanded="true" />
-            <element signature="e#13381#13390#0" expanded="true" />
-            <element signature="e#13442#13451#0" expanded="true" />
-            <element signature="e#13499#13508#0" expanded="true" />
             <element signature="method#getAllDeviceErrorInfo#0;class#HistoryAlertController#0" expanded="false" />
-            <element signature="e#16268#16277#0" expanded="true" />
-            <element signature="e#16329#16338#0" expanded="true" />
-            <element signature="e#16389#16398#0" expanded="true" />
-            <element signature="e#16449#16458#0" expanded="true" />
-            <element signature="e#16510#16519#0" expanded="true" />
-            <element signature="e#16567#16576#0" expanded="true" />
-            <element signature="e#19286#19295#0" expanded="true" />
-            <element signature="e#19345#19354#0" expanded="true" />
-            <element signature="e#19402#19411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/db/DbAlertManeger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#insert#0;class#DbAlertManeger#0" expanded="false" />
+            <element signature="method#getAlertInfo#0;class#DbAlertManeger#0" expanded="false" />
+            <element signature="method#getAlertInfoExcPage#0;class#DbAlertManeger#0" expanded="false" />
+            <element signature="method#getLastTime#0;class#DbAlertManeger#0" expanded="false" />
+            <marker date="1527239345000" expanded="true" signature="5597:5736" ph="SELECT * FRO... alertInfo" />
+            <marker date="1527239345000" expanded="true" signature="7659:7770" ph="SELECT * FRO... alertInfo" />
+            <marker date="1527239345000" expanded="true" signature="9728:9850" ph="SELECT * FRO... alertInfo" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/Demo1Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/DataManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="897">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/network/NetworkUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="64" column="117" lean-forward="false" selection-start-line="64" selection-start-column="117" selection-end-line="64" selection-end-column="117" />
+          <folding>
+            <element signature="method#doGet#0;class#NetworkUtils#0" expanded="false" />
+            <element signature="method#doGetAsync#0;class#NetworkUtils#0" expanded="false" />
+            <element signature="method#doPost#0;class#NetworkUtils#0" expanded="false" />
+            <element signature="method#doPostAsync#0;class#NetworkUtils#0" expanded="false" />
           </folding>
         </state>
       </provider>
